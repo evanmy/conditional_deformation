@@ -23,7 +23,7 @@ T1-weighted 3D brain MRI scans was preprocessed using FreeSurfer [1]. This inclu
 We provide some example OASIS [2] volumes in `./files/` with their respective segmentations. The labels legend can be found in the [FreeSurfer webpage](https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/AnatomicalROI/FreeSurferColorLUT). We also provide the probabilistic atlas that we used in the same folder. Check `functions/dataset.py` for further details on how we convert these numpy files into torch tensor. 
 
 ### Training
-To train our network from scratch, run `python train.py 0 1 --use_dice`
+To train our network from scratch, run `python main.py 0 1 --use_dice`
 The section `Load Data` and `Getting idx` should be customized for your dataset. We provide few preprocessed example in this code. 
 The phenotype file `./files/phenotype.csv` should contain 3 columns (`M/F`, `Age` and `CDR`). CDR represent the presence of Alzheimer's (0-healthy, 1-Alzheimer's). 
 
