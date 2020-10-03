@@ -1,4 +1,4 @@
-# Learning Conditional Deformable ShapeTemplates for Brain Anatomy
+# Learning Conditional Deformable Shape Templates for Brain Anatomy
 <img src="files/architecture.png" width='800'>
 
 ## Abstract
